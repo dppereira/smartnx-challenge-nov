@@ -1,0 +1,1 @@
+# smartnx-challenge-nov
