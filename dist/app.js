@@ -1,0 +1,14 @@
+import express from "express";
+//import sequelize from "./config/dbPg";
+//import { connectToDatabase } from "./config/dbMongo";
+//import { usersRouter } from "./routes/users.router";
+//import authRoutes from "./routes/authRoutes";
+//import postRoutes from "./routes/postRoutes";
+import * as dotenv from "dotenv";
+dotenv.config();
+console.log("aqui");
+console.log(process.env.MONGO_INITDB_ROOT_USERNAME);
+const app = express();
+//app.use("/api/auth", authRoutes);
+//app.use("/api/posts", postRoutes);
+export default app;
